@@ -1,0 +1,9 @@
+@echo off
+echo Starting Admin Panel Frontend with Backend API...
+echo.
+echo Setting environment variable for backend API mode...
+set NEXT_PUBLIC_API_MODE=backend
+set NEXT_PUBLIC_BACKEND_URL=http://localhost:3002
+echo.
+echo Starting Next.js development server...
+npm run dev 
